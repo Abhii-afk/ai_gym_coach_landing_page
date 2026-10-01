@@ -100,23 +100,27 @@
 
     <!-- VISUAL SECTION -->
     <section class="visuals" id="visuals">
-      <div class="section-header center-header">
+      <div class="section-header center-header" data-reveal>
         <span class="section-tag">// GALLERY</span>
-        <h2 class="section-title">Built for<br /><em>real athletes</em></h2>
+        <h2 class="section-title">Inside the<br /><em>AI coach</em></h2>
       </div>
 
       <div class="card-grid">
         <!-- Card 1 -->
         <div class="img-card card-tilt-left card-float-1">
-          <div class="card-inner">
+          <div class="card-inner" data-reveal>
             <div class="card-img-wrap">
-              <!-- Replace src with your image -->
               <img
-                src="./IMGs/i1.png"
-                alt="Squat form analysis"
+                src="./IMGs_add_your_own/interface_login.png"
+                alt="AI gym coach login interface"
+                loading="lazy"
                 onerror="this.parentElement.classList.add('img-placeholder')"
               />
               <div class="card-scan-line"></div>
+            </div>
+            <div class="card-label">
+              <span class="card-tag">01 / ACCESS</span>
+              <p>Simple Login</p>
             </div>
             <div class="card-corner tl"></div>
             <div class="card-corner tr"></div>
@@ -127,14 +131,19 @@
 
         <!-- Card 2 — tall center -->
         <div class="img-card card-center card-float-2">
-          <div class="card-inner">
+          <div class="card-inner" data-reveal>
             <div class="card-img-wrap">
               <img
-                src="./IMGs/i2.png"
-                alt="Deadlift posture feedback"
+                src="./IMGs_add_your_own/interface_dashboard.png"
+                alt="AI gym coach dashboard interface"
+                loading="lazy"
                 onerror="this.parentElement.classList.add('img-placeholder')"
               />
               <div class="card-scan-line"></div>
+            </div>
+            <div class="card-label">
+              <span class="card-tag">02 / OVERVIEW</span>
+              <p>Coach Dashboard</p>
             </div>
             <div class="card-corner tl"></div>
             <div class="card-corner tr"></div>
@@ -145,14 +154,19 @@
 
         <!-- Card 3 -->
         <div class="img-card card-tilt-right card-float-3">
-          <div class="card-inner">
+          <div class="card-inner" data-reveal>
             <div class="card-img-wrap">
               <img
-                src="./IMGs/i3.png"
-                alt="Overhead press alignment"
+                src="./IMGs_add_your_own/workout_history.png"
+                alt="AI gym coach workout history interface"
+                loading="lazy"
                 onerror="this.parentElement.classList.add('img-placeholder')"
               />
               <div class="card-scan-line"></div>
+            </div>
+            <div class="card-label">
+              <span class="card-tag">03 / PROGRESS</span>
+              <p>Workout History</p>
             </div>
             <div class="card-corner tl"></div>
             <div class="card-corner tr"></div>
@@ -162,14 +176,19 @@
         </div>
 
         <div class="img-card card-tilt-right card-float-4">
-          <div class="card-inner"> 
+          <div class="card-inner" data-reveal>
             <div class="card-img-wrap">
               <img
-                src="./IMGs/i4.png"
-                alt="Overhead press alignment"
+                src="./IMGs_add_your_own/end_workout.png"
+                alt="AI gym coach end workout summary"
+                loading="lazy"
                 onerror="this.parentElement.classList.add('img-placeholder')"
               />
               <div class="card-scan-line"></div>
+            </div>
+            <div class="card-label">
+              <span class="card-tag">04 / SUMMARY</span>
+              <p>Workout Complete</p>
             </div>
             <div class="card-corner tl"></div>
             <div class="card-corner tr"></div>
@@ -179,14 +198,19 @@
         </div>
 
         <div class="img-card card-center card-float-5">
-          <div class="card-inner">
+          <div class="card-inner" data-reveal>
             <div class="card-img-wrap">
               <img
-                src="./IMGs/i5.png"
-                alt="Overhead press alignment"
+                src="./IMGs_add_your_own/working_sample1.png"
+                alt="AI gym coach working example one"
+                loading="lazy"
                 onerror="this.parentElement.classList.add('img-placeholder')"
               />
               <div class="card-scan-line"></div>
+            </div>
+            <div class="card-label">
+              <span class="card-tag">05 / LIVE TEST</span>
+              <p>Form Analysis</p>
             </div>
             <div class="card-corner tl"></div>
             <div class="card-corner tr"></div>
@@ -196,14 +220,19 @@
         </div>
 
         <div class="img-card card-tilt-left card-float-6">
-          <div class="card-inner">
+          <div class="card-inner" data-reveal>
             <div class="card-img-wrap">
               <img
-                src="./IMGs/i6.png"
-                alt="Overhead press alignment"
+                src="./IMGs_add_your_own/working_sample2.png"
+                alt="AI gym coach working example two"
+                loading="lazy"
                 onerror="this.parentElement.classList.add('img-placeholder')"
               />
               <div class="card-scan-line"></div>
+            </div>
+            <div class="card-label">
+              <span class="card-tag">06 / LIVE TEST</span>
+              <p>Real-time Feedback</p>
             </div>
             <div class="card-corner tl"></div>
             <div class="card-corner tr"></div>
@@ -216,7 +245,7 @@
 
     <!-- DEMO SECTION -->
     <section class="demo" id="demo">
-      <div class="section-header center-header">
+      <div class="section-header center-header" data-reveal>
         <span class="section-tag">// DEMO</span>
         <h2 class="section-title">See it in<br /><em>action</em></h2>
         <p class="section-desc">
@@ -225,7 +254,7 @@
         </p>
       </div>
 
-      <div class="video-wrapper" id="demo-video">
+      <div class="video-wrapper" id="demo-video" data-reveal>
         <div class="video-glow"></div>
         <div class="video-container">
           <div class="video-corner tl"></div>
@@ -240,13 +269,19 @@
              MP4:    <video src="your-demo.mp4" controls></video>
              YouTube: <iframe src="https://www.youtube.com/embed/YOUR_ID" ...></iframe>
         -->
-          <video src="videos/video.mp4" controls playsinline></video>
+          <video
+            src="videos_add_your_own/demo.mp4"
+            controls
+            playsinline
+            preload="metadata"
+            aria-label="AI gym coach form analysis demo"
+          ></video>
           <!-- <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe> -->
         </div>
       </div>
 
       <!-- feature callouts below video -->
-      <div class="feature-row">
+      <div class="feature-row" data-reveal>
         <div class="feature">
           <span class="feature-icon">⬡</span>
           <strong>Pose Detection</strong>
@@ -268,7 +303,7 @@
 
     <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
-      <div class="contact-inner">
+      <div class="contact-inner" data-reveal>
         <span class="section-tag">// LET'S CONNECT</span>
         <h2 class="contact-title">
           Built by a human.<br /><em>Backed by data.</em>
@@ -281,7 +316,7 @@
         <div class="social-grid">
           <!-- LinkedIn -->
           <a
-            href="https://www.linkedin.com/in/prince-khunt-linked-in/"
+            href="https://www.linkedin.com/in/abhinav-gaur-52622a319/"
             target="_blank"
             rel="noopener"
             class="social-btn"
@@ -304,7 +339,7 @@
 
           <!-- GitHub -->
           <a
-            href="https://github.com/PrinceKhunt16"
+            href="https://github.com/Abhii-afk"
             target="_blank"
             rel="noopener"
             class="social-btn"
@@ -325,32 +360,9 @@
             <span class="social-label">GitHub</span>
           </a>
 
-          <!-- Twitter / X -->
-          <a
-            href="https://twitter.com/prince_khunt_"
-            target="_blank"
-            rel="noopener"
-            class="social-btn"
-            aria-label="Twitter"
-          >
-            <span class="social-icon">
-              <svg
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                width="22"
-                height="22"
-              >
-                <path
-                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-                />
-              </svg>
-            </span>
-            <span class="social-label">Twitter</span>
-          </a>
-
           <!-- Gmail -->
           <a
-            href="mailto:princekhunt04@gmail.com"
+            href="mailto:abhinavgaur095@gmail.com"
             class="social-btn"
             aria-label="Email"
           >
@@ -366,7 +378,7 @@
                 />
               </svg>
             </span>
-            <span class="social-label">Gmail</span>
+            <span class="social-label">Email</span>
           </a>
         </div>
       </div>
@@ -375,5 +387,25 @@
         <span>© 2026 AI GYM Trainer — Real-time AI Gym Trainer</span>
       </footer>
     </section>
+    <script>
+      const revealItems = document.querySelectorAll("[data-reveal]");
+
+      if ("IntersectionObserver" in window) {
+        const revealObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            });
+          },
+          { threshold: 0.14, rootMargin: "0px 0px -48px" }
+        );
+
+        revealItems.forEach((item) => revealObserver.observe(item));
+      } else {
+        revealItems.forEach((item) => item.classList.add("is-visible"));
+      }
+    </script>
   </body>
 </html>
