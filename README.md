@@ -21,10 +21,10 @@ Then visit `http://localhost:8000`.
 
 ## Assets
 
-Gallery images are stored in [`LandingPage/IMGs_add_your_own`](./LandingPage/IMGs_add_your_own). The demo video is loaded from:
+Gallery images are stored in [`LandingPage/images`](./LandingPage/images). The demo video is loaded from:
 
 ```text
-LandingPage/videos_add_your_own/demo.mp4
+LandingPage/videos/demo.mp4
 ```
 
 To replace the gallery images, keep the filenames referenced in `LandingPage/index.html`:
